@@ -3,16 +3,16 @@ window.onload = function() {
   var sound = document.getElementById('sound');
   var grid = document.getElementById('dirt-box');
   // 1. Create a variable called numRows. Set it equal to 3.
-  var
+  var numRows = 3;
   // 2. Create a variable row0.
   // Store the row0-container.
-  var
+  var row0 = document.getElementById("row0-container");
   // 3. Create a variable row1.
   // Store the row1-container.
-  var
+  var row1 = document.getElementById("row1-container");
   // 4. Create a variable row2.
   // Store the row2-container
-  var
+  var row2 = document.getElementById("row2-container");e 
 
   for (let i = 0; i < dirt.length; i++) {
     dirt[i].addEventListener('click', function() {
@@ -35,7 +35,7 @@ window.onload = function() {
     // 5. Create a variable randRow.
     // Store a random number from from 0 to numRows to represent a row.
     // Should return 0, 1, or 2.
-    var
+    var randRow = Math.floor(Math.random() * Math.floor(row.length));
 
     // 6. Create a variable setRow.
     // Do not assign anything to it yet.
