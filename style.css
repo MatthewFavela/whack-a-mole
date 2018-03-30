@@ -8,12 +8,12 @@
 #dirtbox{
     width: 600px;
     height: 600px;
-    background-color:rgb(127,204,51);
+    background-color: cyan;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     border-radius: 30px;
-    border: 10px solid darkgreen;
+    border: 10px solid darkcyan;
 }
 
 #mole{
@@ -31,6 +31,6 @@
     width: 80px;
     height: 80px;
     border-radius: 50px;
-    background-color: rgb(205,133,63);
-    border: 10px solid rgb(139, 69, 19);
+    background-color: rgb(89, 0, 255);
+    border: 10px solid rgb(0, 0, 0);
 }
